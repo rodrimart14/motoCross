@@ -12,8 +12,12 @@
     border-radius: 10px;
 }
 
-.box {
+.boxUl {
     display: flex;
-    
-    
+    flex-direction: end;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between; 
 }
