@@ -8,25 +8,38 @@
 
 body {
     font-family: 'Merriweather', serif;
+    background-image: url(./img/motos\ navbar.jpg);
+    background-position: 100% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+
 }
 
+.header-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:rgba(7, 2, 36, 0.333);
+}
+
+.header-seccion img {
+    width: 80px;
+    margin: 0 50px;
+
+}
 nav {
     display: flex;
     justify-content: space-around;
     align-items:flex-end;
-    background-color:rgba(7, 2, 36, 0.126);
     padding: 1rem;
 }
 
 ul a {
-    color: rgb(16, 7, 10);
+    color: rgb(252, 247, 248);
 }
 ul {
     display: flex;
     gap: 10px;
-}
-
-.div {
-    display: flex;
-    justify-content: center;
 }
