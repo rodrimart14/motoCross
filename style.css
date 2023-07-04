@@ -7,21 +7,17 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
-    background-image: url(./img/motos\ navbar.jpg);
-    background-position: 100% center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 120vh;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-seccion {
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color:rgba(7, 2, 36, 0.333);
+    background-color: rgba(0, 0, 0, 0.445);
+    z-index: 1;
 }
 
 .header-seccion img {
@@ -29,17 +25,84 @@ body {
     margin: 0 50px;
 
 }
-nav {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items:flex-end;
     padding: 1rem;
 }
 
-ul a {
-    color: rgb(252, 247, 248);
-}
-ul {
+.nav_ul {
     display: flex;
     gap: 10px;
+}
+
+.nav_ul a {
+    color: rgb(252, 247, 248);
+}
+
+.heroSection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/motos\ navbar.jpg);
+    background-position: 100% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    top: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+
+.aboutDiv {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+.aboutDiv h2 {
+    font-size: 30px;
+}
+
+.aboutDiv button {
+    padding: 20px 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.aboutSection video {
+    width: 100%;
 }
