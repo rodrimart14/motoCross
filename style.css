@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: rgb(67,67,85);
+    background: linear-gradient(90deg, rgba(67,67,85,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
 }
 
 .header-seccion {
@@ -72,7 +74,6 @@ body {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    
 }
 
 .aboutDiv {
@@ -90,14 +91,14 @@ body {
 }
 
 .aboutDiv button {
-    padding: 20px 30px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     outline: none;
-    background: none;
+    background: rgba(0, 0, 255, 0.584);
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -105,4 +106,18 @@ body {
 
 .aboutSection video {
     width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 450px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    gap: 20px;
 }
