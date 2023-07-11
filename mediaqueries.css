@@ -1,27 +1,123 @@
 /* tablets */
 @media (max-width: 992px) {
-   body {
-    width: 100%;
-    height: 100%;
-   }
 
-   .header-seccion {
-    position: static;
+   .heroSection {
+    width: 100%;
+    text-align: center;
+    
    }
 
    .aboutSection {
-    top: 900px;
+    /* top: 580px; */
+    width: 80%;
+   }
 
+   .aboutDiv {
+    width: 100%;
+    text-align: center;
+    font-size: 60%;
+   }
+
+   .aboutDiv h2 {
+    width: 100%;
+    font-size: 20px;
+   }
+
+   .aboutDiv button{
+    font-size: 10px;
    }
 
    .information {
-    top: 950px;
+    top: 650px;
     font-size: 70%;
    }
 
    .containerCard {
-    top: 450px;
+    top: 100px;
+   }
+
+   .beneficioDiv {
+    height: 40%;
+    text-align: center;
    }
 
 
 } 
+
+
+@media (max-width: 576px) {
+    .nav_ul {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        border: 2px solid rgba(9, 156, 235, 0.655) ;
+        border-top: 0;
+        top: 90px;
+        background-color:  rgba(5, 5, 18, 0.721);
+        border-radius: 0px 0px 10px 10px;
+        -webkit-border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 0px 0px 10px 10px;
+        -ms-border-radius: 0px 0px 10px 10px;
+        -o-border-radius: 0px 0px 10px 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 10px;
+        padding: 20px 30px;
+        display: none;
+}
+
+.nav i {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav i:checked + .nav_ul {
+    display: flex;
+}
+
+.heroSection {
+    font-size: 18px;
+}
+
+.aboutSection {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    top: 500px;
+}
+
+.information {
+    position: relative;
+    top: 550px;
+    
+}
+
+.infoCardImg {
+    gap: 10px;
+}
+
+.beneficioDiv {
+    position: relative;
+    top: 350px;
+}
+
+.ContactoDiv {
+    font-size: 7px;
+    justify-content: center;
+    
+}
+
+.footer {
+
+}
+
+.footerDiv {
+    font-size: 7px;
+}
+
+    /* *{
+        border: 0.1rem solid red;
+    } */
+}

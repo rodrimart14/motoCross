@@ -66,15 +66,16 @@ body {
     position: absolute;
     top: 0;
     z-index: -1;
+    font-size: 40px;
 }
 
 .aboutSection {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     position: relative;
-    top: 490px;
+    top: 570px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 15px;
@@ -135,7 +136,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 550px;
+    top: 600px;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -180,7 +181,7 @@ body {
     height: 300px;
     /* background-color: red; */
     position:absolute;
-    top: 550px;
+    top: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
