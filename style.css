@@ -35,6 +35,13 @@ body {
     padding: 1rem;
 }
 
+#toggle-menu,
+.nav i {
+    font-size: 30px;
+    color: whitesmoke;
+    display: none;
+}
+
 .nav_ul {
     display: flex;
     gap: 50px;
