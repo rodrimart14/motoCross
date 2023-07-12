@@ -46,6 +46,18 @@
 
 
 @media (max-width: 576px) {
+
+
+    .menu {
+        display: flex;
+        cursor: pointer;
+    }
+    
+    #toggle-menu:checked ~ .nav_ul {
+        display: flex;
+    }
+
+
     .nav_ul {
         position: absolute;
         width: 90%;
@@ -68,14 +80,6 @@
         display: none;
 }
 
-.nav i {
-    display: flex;
-    cursor: pointer;
-}
-
-.nav i:checked + .nav_ul {
-    display: flex;
-}
 
 .heroSection {
     font-size: 18px;
@@ -101,16 +105,29 @@
 .beneficioDiv {
     position: relative;
     top: 350px;
+    flex-wrap: wrap;
 }
-
+ .card {
+    min-width: 150px;
+ }
 .ContactoDiv {
+    width: 60%;
     font-size: 7px;
     justify-content: center;
+    gap: 20px;
     
 }
 
-.footer {
+.ContactoDiv img {
+    width: 60%;
+}
 
+.ContactoMail ul {
+    font-size: 6px;
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .footerDiv {
